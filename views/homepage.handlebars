@@ -1,0 +1,9 @@
+<!-- views/index.handlebars -->
+
+{{#each posts}}
+  <div class="post">
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
+    <p class="post-meta">{{createdAt}}</p>
+  </div>
+{{/each}}
